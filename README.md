@@ -15,6 +15,10 @@ MCS v1.0 defines a different boundary:
 Because systems do not primarily fail when they act.
 
 → They fail when mis-formed reality becomes admissible and persistent.
+---
+## Official Standard
+
+📄 [Download MCS v1.0 (PDF)](standard/MCS_v1.0.pdf)
 
 ---
 

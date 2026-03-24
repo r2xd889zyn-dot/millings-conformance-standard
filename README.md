@@ -22,6 +22,61 @@ Because systems do not primarily fail when they act.
 
 ---
 
+## Quick Start — Why This Matters
+
+Most systems focus on controlling what happens after a decision is made.
+
+→ execution  
+→ enforcement  
+→ audit  
+
+---
+
+But by that point, the system has already:
+
+👉 decided what is real
+
+---
+
+If that underlying state is wrong:
+
+• decisions can be correct  
+• execution can be perfect  
+• audits can pass  
+
+👉 and outcomes can still fail
+
+---
+
+MCS v1.0 addresses this earlier layer:
+
+👉 how systems form the state they act on
+
+---
+
+### What this standard gives you
+
+- A way to identify where decisions actually originate  
+- A way to detect hidden failure before execution  
+- A way to distinguish state vs action admissibility  
+- A framework to prevent “correct systems producing wrong outcomes”  
+
+---
+
+### In simple terms
+
+Systems don’t act on reality.
+
+👉 They act on what they believe is real.
+
+---
+
+If you control that layer,
+
+👉 you control everything downstream
+
+---
+
 ## Core Concepts
 
 - State Formation

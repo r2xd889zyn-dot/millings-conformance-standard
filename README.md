@@ -15,7 +15,115 @@ MCS v1.0 defines a different boundary:
 Because systems do not primarily fail when they act.
 
 → They fail when mis-formed reality becomes admissible and persistent.
+
+## Who Should Use MCS (Use Cases)
+
+MCS v1.0 applies to any system where decisions are made based on interpreted data.
+
 ---
+
+### AI / Machine Learning Systems
+
+Use MCS when:
+
+• models produce outputs that are difficult to explain  
+• decisions appear correct but outcomes are inconsistent  
+• systems rely on probabilistic reasoning  
+
+---
+
+👉 MCS helps identify:
+where model interpretation becomes incorrect state
+
+---
+
+### Enterprise Decision Systems
+
+Use MCS when:
+
+• automated workflows produce unexpected results  
+• accountability is difficult to assign  
+• decisions are distributed across teams or systems  
+
+---
+
+👉 MCS helps identify:
+where decision origin becomes unclear or misaligned
+
+---
+
+### Healthcare & Medical Systems
+
+Use MCS when:
+
+• diagnostic systems rely on interpreted signals  
+• small differences in data lead to different outcomes  
+• correctness is critical and errors are costly  
+
+---
+
+👉 MCS helps identify:
+how representation of patient data affects decisions
+
+---
+
+### Financial Systems
+
+Use MCS when:
+
+• systems rely on models or signals to act  
+• outcomes are consistent but still incorrect  
+• risk decisions depend on interpretation  
+
+---
+
+👉 MCS helps identify:
+where market reality is misrepresented internally
+
+---
+
+### Governance / Compliance Systems
+
+Use MCS when:
+
+• systems pass audits but still fail in practice  
+• enforcement is strong but outcomes drift  
+• rules exist but don’t prevent failure  
+
+---
+
+👉 MCS helps identify:
+where governance is applied too late in the process
+
+---
+
+### Human Decision Processes
+
+Use MCS when:
+
+• people interpret the same information differently  
+• decisions seem logical but outcomes diverge  
+• bias or framing affects outcomes  
+
+---
+
+👉 MCS helps identify:
+how interpretation becomes belief, and belief drives action
+
+---
+
+### In simple terms
+
+If your system can be:
+
+• correct  
+• compliant  
+• and still wrong  
+
+👉 MCS applies
+
+---
+
 ## Official Standard
 
 📄 [Download MCS v1.0 (PDF)](standard/MCS_v1.0.pdf)

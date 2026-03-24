@@ -32,6 +32,95 @@ Most systems focus on controlling what happens after a decision is made.
 
 ---
 
+## How to Use MCS (Practical Application)
+
+MCS v1.0 is designed to be applied at the point where decisions originate.
+
+---
+
+### Step 1 — Identify the Decision
+
+Start with a system decision:
+
+• model output  
+• automated action  
+• approval / rejection  
+• recommendation  
+
+---
+
+### Step 2 — Trace the State
+
+Ask:
+
+👉 What state did the system form before making this decision?
+
+This includes:
+
+• interpreted inputs  
+• assumptions  
+• classifications  
+• context representation  
+
+---
+
+### Step 3 — Validate the State
+
+Before evaluating the decision itself, ask:
+
+👉 Is the underlying state valid?
+
+Check for:
+
+• missing context  
+• incorrect assumptions  
+• over-simplified representations  
+• hidden bias in interpretation  
+
+---
+
+### Step 4 — Separate Admissibility
+
+Distinguish between:
+
+• State Admissibility → should this representation exist?  
+• Action Admissibility → should this action occur?
+
+---
+
+### Step 5 — Identify Failure Early
+
+If the state is incorrect:
+
+👉 do not fix execution  
+👉 do not adjust outputs  
+
+👉 correct the state first
+
+---
+
+### Step 6 — Monitor Continuity
+
+Even correct states can drift over time.
+
+Track:
+
+• changes in input conditions  
+• evolving interpretations  
+• feedback loops reinforcing assumptions  
+
+---
+
+### Summary
+
+Traditional approach:
+→ fix decisions
+
+MCS approach:
+→ fix the state those decisions come from
+
+---
+
 But by that point, the system has already:
 
 👉 decided what is real

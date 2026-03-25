@@ -33,6 +33,146 @@ They focus on:
 
 ---
 
+## Getting Started (Implementation Path)
+
+MCS v1.0 is designed to be applied incrementally.
+
+You do not need to redesign your entire system.
+
+---
+
+### Phase 1 — Identify Decision Points
+
+Start with one system decision:
+
+• model output  
+• automated workflow  
+• approval / rejection  
+• recommendation  
+
+---
+
+👉 Focus on a single decision pathway
+
+---
+
+### Phase 2 — Trace State Formation
+
+Before the decision occurs, ask:
+
+👉 What state is the system forming?
+
+Identify:
+
+• input interpretation  
+• assumptions  
+• classifications  
+• context representation  
+
+---
+
+👉 This is where most errors originate
+
+---
+
+### Phase 3 — Validate the State
+
+Do not evaluate the decision yet.
+
+Evaluate the state:
+
+• Is it complete?  
+• Is it accurate?  
+• What assumptions are embedded?  
+• What is missing?  
+
+---
+
+👉 If state is wrong, everything downstream will be wrong
+
+---
+
+### Phase 4 — Separate Admissibility
+
+Explicitly define:
+
+• State Admissibility → Should this representation exist?  
+• Action Admissibility → Should this action be allowed?  
+
+---
+
+👉 Most systems skip this separation
+
+---
+
+### Phase 5 — Align Accountability
+
+Assign ownership to:
+
+👉 state formation
+
+Not just:
+
+• decisions  
+• outcomes  
+
+---
+
+👉 This closes governance gaps
+
+---
+
+### Phase 6 — Monitor Over Time
+
+Track:
+
+• how state changes  
+• how interpretations evolve  
+• how feedback reinforces assumptions  
+
+---
+
+👉 This prevents drift
+
+---
+
+### Phase 7 — Scale Across Systems
+
+Once validated:
+
+• apply to additional decision paths  
+• align state across systems  
+• prevent shared-state failure  
+
+---
+
+## Implementation Principle
+
+Do not fix decisions.
+
+👉 Fix the state those decisions come from
+
+---
+
+## Outcome
+
+When applied correctly:
+
+• decisions become consistent  
+• execution becomes meaningful  
+• governance becomes real  
+• accountability becomes traceable  
+
+---
+
+## Final Reminder
+
+You don’t need more control.
+
+👉 You need control at the right layer
+
+---
+
 ### Traditional Approach
 
 → Validate outputs  
